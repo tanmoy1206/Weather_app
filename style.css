@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: #303030;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    width: 450px;
+    height: 600px;
+    background: linear-gradient(135deg,#7900FF, #00FFC6);
+    background-repeat: no-repeat;
+    padding: 33px 20px;
+    margin: 30px auto 43px;
+    border-radius: 15px;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+input:focus{
+    outline-color: palevioletred;
+}
+.search button{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search input{
+    height: 50px;
+    width: 340px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+}
+.search input[type="text"]
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+}
+.search input::placeholder{
+    font-size: 23px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.status{
+    color: white;
+    font-weight: 500;
+}
+.search button i{
+font-size: 20px;
+}
+.image img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.exinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.adinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tempinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+} 
+.col img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+} 
+
+.humidity{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.wind{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.maxtemp{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.mintemp{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.feels{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.airquality{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 550;
+}
+.city{
+    font-size: 33px;
+    color: white;
+    
+    font-weight: 600;
+}
+.temp{
+    font-size: 50px;
+    color: white;
+ 
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 390px;
+        height: 600px;
+        background: linear-gradient(135deg,#7900FF, #00FFC6);
+        background-repeat: no-repeat;
+        padding: 40px 20px;
+        margin: 30px auto 43px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .search input{
+        height: 50px;
+        width: 280px;
+        border-radius: 20px;
+        padding: 20px;
+        border: none;
+    }
+  }
