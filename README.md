@@ -14,3 +14,8 @@ It is a Weather app. Here I used two APIs from OpenWeather. One is  Weather fore
 - Live weather forcating
 - Live Air quality index
 
+
+## Demo
+
+[Click here to visit](https://cheerful-kulfi-5dc668.netlify.app)
+
